@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonSettings</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>0</Pos>
+			<Size>30</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>0</Pos>
+			<Size>30</Size>
+		</Y>
+	</Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/ButtonHighlighted.(WidgetLayerSimpleTexture).xdb" />
+      <StateNormal>
+        <LayerMain href="Textures/ButtonSettingsNormal.(WidgetLayerSimpleTexture).xdb" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/ButtonSettingsPushed.(WidgetLayerSimpleTexture).xdb" />
+      </StatePushed>
+      <Reaction>LEFT_CLICK</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+    </Item>
+  </Variants>
+  <Visible>true</Visible>
+  <clipContent>false</clipContent>
+</WidgetButton>

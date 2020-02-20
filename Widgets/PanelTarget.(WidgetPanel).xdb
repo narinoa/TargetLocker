@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>PanelTarget</Name>
+	<Children>
+	<Item href="ButtonSettings.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	<Item href="ButtonTarget.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	<Item href="ButtonControl.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>450</Size>
+			<Pos>150</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>50</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<clipContent>false</clipContent>
+	<Visible>true</Visible>
+</WidgetPanel>
